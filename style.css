@@ -1,0 +1,16 @@
+.container
+{
+    display: flex;
+
+    /* Valores possiveis principais (row|row-reverse|column|column-reverse) */
+    flex-direction: row;
+
+    justify-content: space-evenly;
+
+    /* Valores possiveis principais (center|strech|flex-start|flex-end|baseline) */
+    align-content: center;
+    /* justify-content:space-between: */
+    flex-wrap:wrap;
+
+    align-items: center;
+}
